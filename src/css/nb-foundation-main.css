@@ -1581,7 +1581,7 @@ TABS
 	padding: 0 1em;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40em) { /* 640 */
 	.tabs.vertical {
 		width: 20%;
 		float: left;
@@ -1898,7 +1898,7 @@ BAR
 	color: #fff;
 }
 
-@media only screen and (min-width: 40.063em) { /* 641 */
+@media only screen and (min-width: 40em) { /* 640 */
 	.top-bar:before,
 	.top-bar:after {
 		content: ".";
@@ -2151,7 +2151,7 @@ label.right {
 	float: none;
 }
 
-@media only screen and (min-width: 40.063em) { /* 641 */
+@media only screen and (min-width: 40em) { /* 640 */
 
 	.medium-1 label.inline,
 	.medium-2 label.inline,
@@ -2694,7 +2694,7 @@ PANELS
 	padding: 1.25em;
 }
 
-@media only screen and (min-width: 40.063em) { /* 641 */
+@media only screen and (min-width: 40em) { /* 640 */
 	.panel-heading {
 		padding: 1.25em 1.75em;
 	}
