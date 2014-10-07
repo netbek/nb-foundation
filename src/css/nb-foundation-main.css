@@ -374,7 +374,7 @@ COLUMNS
 	}
 }
 
-@media only screen and (min-width: 40.063em) { /* 641 */
+@media only screen and (min-width: 40em) { /* 640 */
 	.medium-push-0 {
 		position: relative;
 		left: 0%;
@@ -804,7 +804,7 @@ COLUMNS
 	}
 }
 
-@media only screen and (min-width: 62.063em) { /* 993 */
+@media only screen and (min-width: 62em) { /* 992 */
 	.large-push-0 {
 		position: relative;
 		left: 0%;
