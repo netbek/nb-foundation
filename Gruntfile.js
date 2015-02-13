@@ -28,8 +28,12 @@ module.exports = function (grunt) {
 		},
 		concat: {
 			dist: {
-				src: ['src/css/**/*.css'],
+				src: ['src/css/nb-foundation-base.css', 'src/css/nb-foundation-main.css'],
 				dest: 'dist/css/<%= pkg.name %>.css'
+			},
+			distFlexbox: {
+				src: ['src/css/nb-foundation-base.css', 'src/css/nb-foundation-main-flexbox.css'],
+				dest: 'dist/css/<%= pkg.name %>.flexbox.css'
 			}
 		},
 		cssmin: {
@@ -37,10 +41,20 @@ module.exports = function (grunt) {
 				banner: '<%= meta.banner %>'
 			},
 			dist: {
-				files: [{
-						src: ['src/css/**/*.css'],
+				files: [
+					{
+						src: ['src/css/nb-foundation-base.css', 'src/css/nb-foundation-main.css'],
 						dest: 'dist/css/<%= pkg.name %>.min.css'
-					}]
+					}
+				]
+			},
+			distFlexbox: {
+				files: [
+					{
+						src: ['src/css/nb-foundation-base.css', 'src/css/nb-foundation-main-flexbox.css'],
+						dest: 'dist/css/<%= pkg.name %>.flexbox.min.css'
+					}
+				]
 			}
 		}
 	});
